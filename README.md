@@ -98,8 +98,8 @@ Follow the steps in the "Upload your APNs certificate" section of the Firebase d
 
 If you need to disable the method swizzling done by the FCM iOS SDK (e.g. so that you can use this plugin with other notification plugins) then add the following to your application's Info.plist file.
 
-<key>FirebaseAppDelegateProxyEnabled</key>
-<false/>
+[<key>FirebaseAppDelegateProxyEnabled</key>
+<false/>]
 
 Objective-C:
 if (@available(iOS 10.0, *)) {
